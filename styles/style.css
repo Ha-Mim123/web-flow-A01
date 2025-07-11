@@ -1,20 +1,20 @@
-
-body{
+body {
     background-color: rgb(237, 237, 251);
 }
+
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
-.header{
+.header {
     background-image: url("../assets/Hero-bg.png");
     width: 1440px;
     height: 698px;
     margin-bottom: 50px;
-    
+
 }
 
 
@@ -24,7 +24,8 @@ body{
     width: 99px;
     font-weight: 800;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     color: white;
     text-align: center;
@@ -33,11 +34,13 @@ body{
     border-radius: 5px;
     border: none;
 }
-.btn-wh{
+
+.btn-wh {
     height: 48px;
     width: 174px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,18 +50,22 @@ nav{
     gap: 0 auto;
     margin: 0 150px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     text-decoration: none;
 }
-.banner{
+
+.banner {
     text-align: center;
-     margin: 150px 267px 237px;
+    margin: 150px 267px 237px;
 }
-.banner-tittle{
+
+.banner-tittle {
     font-size: 65px;
     font-weight: bold;
     height: 152px;
@@ -67,90 +74,104 @@ nav ul li{
     justify-content: center;
     text-align: center;
 }
-main{
+
+main {
     max-width: 1140px;
-    height: 306px;
     margin: 0 auto;
     background-color: rgb(237, 237, 251);
 
 }
-.webflow{
+
+.webflow {
     height: 328px;
-    margin-top:130px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-between;
 }
-.webflow-actn{
+
+.webflow-actn {
     width: 517px;
     height: 203px;
     text-align: top left;
-    margin-bottom: ;
-    
+
 }
-.webflow-tittle{
+
+.webflow-tittle {
     color: rgba(37, 36, 50, 1);
     font-size: 42px;
     font-weight: bold;
 }
-.webflow-actn-description{
+
+.webflow-actn-description {
     height: 60px;
     width: 517px;
     font-size: 24px;
-    color:rgba(37, 36, 50, 0.5);
+    color: rgba(37, 36, 50, 0.5);
     padding-right: 10px;
 
 }
-.launch-btn{
+
+.launch-btn {
     margin-top: 23px;
     height: 24px;
     width: 157px;
 }
 
-.wc-mini-pic{
+.wc-mini-pic {
     border-radius: 50px;
     height: 328px;
     width: 403px;
 }
 
-
-.product-user{
-    text-align: center;
-    padding: 80px 50px;
+.productive-user{
     background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 15px;
-    margin-top: 100px;   
+    padding: 50px  80px 50px;
 }
-.product-user-details{
+.productive-review{
+    text-align: center;
+    gap: 20px;
+}
+.product-user-details {
     display: flex;
     justify-content: space-around;
-}
-.product-tittle{
-    font-size: 38px;
-    font-weight: bold;
-    color: #252432;
+    text-align: center;
+    align-items: center;
     
 }
 
-.font-user{
-    width: 160px;
-    height: 97px;
-    font-size: 80px;
+.product-tittle {
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #252432;
+
+}
+
+.font-user {
+    width: 10px;
+    height: 15px;
+    font-size: 50px;
     font-weight: bold;
     color: #4E47FF;
-} 
-
-.inter-normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
-.font{
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     width: 160px;
     height: 24px;
 }
-.rating-tittle{
+
+.rating-tittle {
     text-align: center;
     font-size: 42px;
     font-weight: bold;
@@ -159,23 +180,30 @@ main{
     width: 1140px;
     gap: 50px;
 }
-.rating-container{
+
+.rating-container {
     display: flex;
     gap: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 5px;
+    
+    
 }
-.rate-tittle{
+
+.rate-tittle {
     width: 221px;
     height: 29px;
     text-align: left;
-    color:rgba(30, 30, 30, 1);
+    color: rgba(30, 30, 30, 1);
 }
-.rate-description{
-    padding: 24px;
-    
+
+.rate-description {
+    /* padding: 24px; */
+    text-align: left;
+
 }
-.rate-1{
+
+.rate-1 {
     height: 265px;
     width: 269px;
     text-align: top left;
@@ -183,8 +211,10 @@ main{
     border-radius: 14px;
     background-color: #F2EDED;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    justify-content: space-between;
 }
-.rate{
+
+.rate {
     height: 243px;
     width: 416px;
     text-align: top left;
@@ -192,37 +222,51 @@ main{
     border-radius: 14px;
     background-color: #F2EDED;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    justify-content: space-between;
 }
-.reviewer{
-    gap: 2;
-
+.review-name{
+   
+    margin: 0;
+   
 }
-.left-image{
-    float:left;
+.review-date{
+    font-size:15px ;
+    color: rgba(14, 13, 13, 0.5);
+    margin: 0;
+    width: 169px;
+    height: 22px;
+    text-align: left;
+   
+}
+.left-image {
+    float: left;
     margin-right: 10px;
     border-radius: 40px;
 }
-.form-section{
+
+.form-section {
     width: 1140px;
     height: 632px;
     margin-top: 130px;
-    margin-top: 130px;
+    margin-bottom: 130px;
     display: flex;
     gap: auto;
     padding-top: 40px;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.form-tittle{
+
+.form-tittle {
     font-size: 97px;
     font-weight: bold;
     width: 528px;
     height: 232px;
     color: rgba(0, 0, 0, 1);
-    padding: 100px 100px  200px 0;
+    padding: 100px 100px 200px 0;
 }
 
-main input[type="email"],main input[type="text"]{
+main input[type="email"],
+main input[type="text"] {
     height: 50px;
     border-radius: 10px;
     background-color: white;
@@ -233,7 +277,8 @@ main input[type="email"],main input[type="text"]{
     margin-bottom: 24px;
     border: none;
 }
-main textarea{
+
+main textarea {
     height: 135px;
     border-radius: 10px;
     background-color: white;
@@ -243,37 +288,77 @@ main textarea{
     font-size: 16px;
     margin-bottom: 24px;
     border: none;
-    
+
 }
+
 main input[type=button] {
 
-  background-color: #4E47FF;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 497px;
-  height: 62px;
-  gap: 10px;
-  text-align: center;
-
-}
-main input[type=button]:hover {
-  background-color: #9ea045;
-}
-/* .btn-2{
+    background-color: #4E47FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
     width: 497px;
     height: 62px;
     gap: 10px;
     text-align: center;
-    padding: 10px 15px;
-} */
-.color{
+    
+}
+
+main input[type=button]:hover {
+    background-color: #9ea045;
+}
+
+.color {
     color: rgb(3, 2, 2);
     font-weight: 500;
 }
-#area-color{ 
-   color:rgba(0, 0, 0, 0.5) ; 
+
+#area-color {
+    color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 1) ;
+}
+.footer-part{
+ 
+    text-align: center;
+    align-items: center;
+    margin: 104px 455px;
+}
+.footer-tittle {
+    color: #4E47FF;
+    width: 291px;
+    height: 121;
+    font-size: 100px;
+    font-weight: black;
+    display: flex;
+    margin-top: 1px ;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.footer-description{
+    width: 531px;
+    height: 48px;
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+
+.ar{
+    text-decoration: none;
+}
+.li{
+     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    text-align: center;
 }
