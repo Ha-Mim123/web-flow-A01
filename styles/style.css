@@ -7,7 +7,7 @@
 
 
 .header{
-    background-image: url("../Assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     width: 1440px;
     height: 698px;
     margin-bottom: 50px;
@@ -41,7 +41,7 @@ nav{
     width: 1140px;
     height: 151px;
     padding: 0 50px;
-    gap:auto;
+    gap: 0 auto;
     margin: 0 150px;
 }
 nav ul{
@@ -65,11 +65,14 @@ nav ul li{
     text-align: center;
 }
 main{
+    max-width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+
 }
 .webflow{
-    width: 1140px;
     height: 328px;
-    margin: 0 141px 0 159px;
+    margin-top:130px;
     display: flex;
     justify-content: space-between;
 }
@@ -103,4 +106,95 @@ main{
     border-radius: 50px;
     height: 328px;
     width: 403px;
+}
+
+
+.product-user{
+    text-align: center;
+    padding: 80px 50px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 15px;
+    margin-top: 100px;   
+}
+.product-user-details{
+    display: flex;
+    justify-content: space-around;
+}
+.product-tittle{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+
+.font-user{
+    width: 160px;
+    height: 97px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+} 
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 160px;
+    height: 24px;
+}
+.rating-tittle{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    height: 49px;
+    width: 1140px;
+    gap: 50px;
+}
+.rating-container{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+.rate-tittle{
+    width: 221px;
+    height: 29px;
+    text-align: left;
+    color:rgba(30, 30, 30, 1);
+}
+.rate-description{
+    padding: 24px;
+    
+}
+.rate-1{
+    height: 265px;
+    width: 269px;
+    text-align: top left;
+    padding: 24px 24px;
+    border-radius: 14px;
+    background-color: #F2EDED;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.rate{
+    height: 243px;
+    width: 416px;
+    text-align: top left;
+    padding: 24px 24px;
+    border-radius: 14px;
+    background-color: #F2EDED;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.reviewer{
+    gap: 2;
+
+}
+.left-image{
+    float:left;
+    margin-right: 10px;
+    border-radius: 40px;
 }
