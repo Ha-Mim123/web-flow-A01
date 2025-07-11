@@ -351,6 +351,8 @@ footer{
 
 .ar{
     text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    margin-left: 25px;
 }
 .li{
      list-style-type: none;
